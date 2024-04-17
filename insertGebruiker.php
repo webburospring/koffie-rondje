@@ -1,12 +1,12 @@
 <?php
 
 session_start();
-echo 'insertGebruiker.php';
+// echo 'insertGebruiker.php';
 require './inc/database.php';
 
 if(isset($_POST['insertGebruiker'])) {
     $gebruiker = $_POST['insertGebruiker'];
-    echo 'vanuit php ' .  $gebruiker;
+    // echo 'vanuit php ' .  $gebruiker;
     $currentTime = date(' H:i:s'); 
 
     // Check if the 'gebruiker' value already exists in the database
