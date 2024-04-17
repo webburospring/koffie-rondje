@@ -4,10 +4,10 @@
 // $password = "";
 // $database = 'aanmelden';
 
-$servername = "localhost";
-$username = "lucas_koffie";
-$password = "4jmNqT5sEkVjTq2yW74s";
-$database = 'lucas_koffie';
+$servername = $_ENV['DB_SERVER'] ?? "localhost";
+$username = $_ENV['DB_USER'] ?? "lucas_koffie";
+$password = $_ENV['DB_PASSWORD'] ?? "4jmNqT5sEkVjTq2yW74s";
+$database = $_ENV['DB_DATABASE'] ?? 'lucas_koffie';
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password,$database);
