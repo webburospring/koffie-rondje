@@ -1,0 +1,33 @@
+#bestelling1 {
+    background: none;
+    border: none;
+}
+
+.form-container {
+    display: inline-block;
+}
+
+body {
+    background-color: rgb(54, 54, 54);
+}
+
+.bgBlue {
+    background-color: rgb(65, 65, 119);
+}
+
+.table1   {
+    width: auto;
+    
+}
+.table2 {
+    width: auto;
+}
+
+.table3 {
+    width: auto;
+}
+
+#inputRandomNaam {
+    background: none;
+    border: none;
+}
