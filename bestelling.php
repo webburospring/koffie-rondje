@@ -13,7 +13,7 @@ foreach ($_POST as $bestelling => $value) {
             if (mysqli_query($conn, $sql)) {
                 echo "<p class='alert alert-success'>U heeft het volgende besteld: " . $bestelling . "</p>";
                                                                                                 
-                header("Location: index.php");
+                header("Location: home.php");
         } else {
             header('Location: bestel.php');
             exit();
