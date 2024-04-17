@@ -1,5 +1,5 @@
 <?php
-
+echo "index";
 session_start();
 error_reporting(E_ALL);
 require './inc/database.php';
