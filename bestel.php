@@ -61,7 +61,7 @@ if (isset($_POST['reset'])) {
         <input class="btn btn-primary" type="submit" name="logout" value="Logout">
     </form>
     <?php
-    if ($_SESSION['naam'] == 'lucas598') {
+    if (in_array($_SESSION['naam'], ['lucas598', "Ramon Jansen"])) {
         ?><br>
         <form action="./upload/upload.php" method="post">
             <input class="btn btn-primary" type="submit" name="upload" value="Voeg nieuwe foto toe">
